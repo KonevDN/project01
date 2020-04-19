@@ -1,0 +1,55 @@
+/*=====================SECTION 2 section wathc===================*/
+.section02 h1,
+.section02 h2,
+.section02 h3,
+.section02 h4
+{
+    color: #007BFF;
+}
+
+
+.section02
+{
+    background: url("../../pictures/landing/section02/world-map.png") center no-repeat;
+    background-size: cover;
+}
+
+section .nav-pills .nav-link
+{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 14px 30px;
+}
+
+section .nav-pills .nav-item .nav-link.active
+{
+    background-color: deeppink;
+    color: white;
+    box-shadow: 0 4px 16px rgba(0,0,0, 0.35);
+}
+
+section .btn-shadow
+{
+    box-shadow: 0 5px 0 #ff5990;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+
+section .btn-shadow:hover
+{
+    box-shadow: 0 2px 0 #ff5990;
+    border-radius: 5px;
+    transition: all 500ms;
+    color: white;
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px)
+{
+    section .nav-pills .nav-item
+    {
+        width: 100%;
+    }
+}

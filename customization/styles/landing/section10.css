@@ -1,0 +1,18 @@
+.section10 .socialnet
+{
+    min-width: 120px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.section10
+{
+    background-color: #4a2d7f;
+    color: white;
+}
+
+.section10 div.shtrih {
+    width: 10px;
+    padding: 10px 0px;
+    margin: 0;
+}

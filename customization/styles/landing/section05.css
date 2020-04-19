@@ -1,0 +1,80 @@
+.section05 h1,
+.section05 h2,
+.section05 h3,
+.section05 h4
+{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section05 h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #484848;
+
+}
+
+.section05 h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Montserrat','Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    margin-bottom: 10px;
+    color: #484848;
+}
+
+.section05 img {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    height: 70px;
+}
+
+.embed-responsive {
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)
+{
+    .section05 .embed-responsive {
+        margin-top: 20px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .section05 .embed-responsive {
+        margin-top: 20px;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .section05 .embed-responsive {
+        margin-top: 20px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)
+{}

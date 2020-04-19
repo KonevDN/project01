@@ -1,0 +1,29 @@
+.section04 h1,
+.section04 h2,
+.section04 h3,
+.section04 h4
+{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section04 p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section04
+{
+    background-color: #4B2D7F;
+    color: white;
+    font-size: 16px;
+    background: url("../../pictures/landing/section04/letsgrow.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section04 .mycontent
+{
+    padding: 40px;
+}

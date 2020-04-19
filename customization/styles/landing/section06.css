@@ -1,0 +1,33 @@
+.section06 h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #484848;
+}
+
+.section06
+{
+    background-color: #f1f1f1;
+    color: #333333;
+}
+
+.section06 .nav-pills
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section06 .gellery-item
+{
+    margin-bottom: 70px;
+}
+
+
+.section06 .gellery-item a:hover img
+{
+    box-shadow: 0 14px 30px -15px rgba(0,0,0, .50);
+    transition: all 500ms;
+}
