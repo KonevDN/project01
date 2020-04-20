@@ -53,3 +53,40 @@ section .btn-shadow:hover
         width: 100%;
     }
 }
+
+.section02 h1
+{
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Montserrat SemiBold";
+    font-size: 64px;
+    color: black;
+    line-height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section02 h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 42px;
+    /*font-family: Montserrat-SemiBold;*/
+    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    color: black;
+
+}
+
+.section02 p
+{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.section02 a.nav-link {
+    color: black;
+}
