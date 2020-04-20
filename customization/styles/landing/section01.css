@@ -168,6 +168,9 @@ div.section01-first-display .container-fluid.my-slogan
         position: absolute;
         bottom: 38%;
     }
+    nav.navbar.navbar-expand-md.pr-0.pl-0.ml-0.mr-0.d-flex.justify-content-end {
+        width: 100%;
+    }
 }
 
 /*// Extra small devices (portrait phones, less than 576px)*/
@@ -178,7 +181,7 @@ div.section01-first-display .container-fluid.my-slogan
         font-weight: bold;
         font-style: normal;
         font-family: "Montserrat SemiBold";
-        font-size: 32px;
+        font-size: 30px;
         color: white;
         line-height: 32px;
         margin-top: 20px;
@@ -211,6 +214,10 @@ div.section01-first-display .container-fluid.my-slogan
     button.btn.btn-primary {
         font-size: 12px;
         padding: 10px 14px;
+    }
+
+    nav.navbar.navbar-expand-md.pr-0.pl-0.ml-0.mr-0.d-flex.justify-content-end {
+        width: 100%;
     }
 }
 

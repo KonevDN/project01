@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d4a5455-d38c-4b73-9bd5-8c42136e15fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customization/styles/tool01.css" beforeDir="false" afterPath="$PROJECT_DIR$/customization/styles/tool01.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customization/styles/landing/section01.css" beforeDir="false" afterPath="$PROJECT_DIR$/customization/styles/landing/section01.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,11 +100,15 @@
       <workItem from="1587254029136" duration="5675000" />
       <workItem from="1587286379553" duration="19676000" />
       <workItem from="1587335117179" duration="2272000" />
+      <workItem from="1587394286038" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LIMIT_HISTORY" value="false" />
   </component>
   <component name="WindowStateProjectService">
     <state x="966" y="180" key="#Chrome_Settings" timestamp="1586351653453">
@@ -195,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1057" height="144" key="GridCell.Tab.3.right/-1366.74.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586447528737" />
-    <state x="926" y="151" key="SettingsEditor" timestamp="1586176535404">
+    <state x="926" y="151" key="SettingsEditor" timestamp="1587394362770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="926" y="151" key="SettingsEditor/-1366.74.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1586176535404" />
+    <state x="926" y="151" key="SettingsEditor/-1366.74.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1587394362770" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586260041819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
