@@ -1,7 +1,7 @@
 .section08
 {
     /*background-color: #0f6674;*/
-    background: url("/customization/pictures/landing/section08/background.jpg") center no-repeat;
+    background: url("../../pictures/landing/section08/background.jpg") center no-repeat;
     background-size: cover;
     padding-bottom: 0;
 }
@@ -55,7 +55,7 @@
         padding-right: 20px;
         /*width: 100%;*/
         text-align: center;
-        background: rgba(46,30,92, 0.8);
+        /*background: rgba(46,30,92, 0.8);*/
         top: 190px;
         left: 40px;
         right: 40px;
@@ -110,16 +110,239 @@
 
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px)
+@media (min-width: 768px) and (max-width: 991px)
 {
+    .section08 h1
+    {
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Montserrat SemiBold";
+        font-size: 44px;
+        color: white;
+        line-height: 44px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .section08 h2 {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 34px;
+        font-family: Montserrat-SemiBold;
+        font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        color: white;
+    }
+
+    .section08 p {
+        font-family: Montserrat-Regular;
+        font-size: 22px;
+        font-weight: normal;
+        color: white;
+        text-align: left;
+    }
+
+    .section08 .blockquote::before
+    {
+        content: '\201C';
+        float: left;
+        font-size: 150px;
+        font-weight: 500;
+        font-style: italic;
+        color: deeppink;
+        position: absolute;
+        top: -46px;
+        left: -40px;
+    }
+
+    .section08 .blockquote
+    {
+        font-style: italic;
+        font-weight: 500;
+        font-size: 16px;
+        padding-left: 40px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .section08 .carousel-caption
+    {
+        position: absolute;
+        right: 15%;
+        bottom: 20px;
+        left: 5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+        top: 10%;
+        bottom: auto;
+        width: 90%;
+    }
+
+    .section08 .my-photo-of-happy-client {
+        margin-top: 240px;
+    }
+
+    .section08 img {
+        max-width: 70%;
+        height: auto;
+        margin-left: 200px;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px)
+@media (min-width: 992px) and (max-width: 1199px)
 {
+    .section08 h1
+    {
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Montserrat SemiBold";
+        font-size: 44px;
+        color: white;
+        line-height: 44px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .section08 h2 {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 34px;
+        font-family: Montserrat-SemiBold;
+        font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .section08 p {
+        font-family: Montserrat-Regular;
+        font-size: 22px;
+        font-weight: normal;
+        color: white;
+        text-align: left;
+    }
+
+    .section08 .blockquote::before
+    {
+        content: '\201C';
+        float: left;
+        font-size: 150px;
+        font-weight: 500;
+        font-style: italic;
+        color: deeppink;
+        position: absolute;
+        top: -94px;
+        left: -18px;
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px)
 {
+    .section08 .carousel-caption
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        /*width: 100%;*/
+        text-align: center;
+        /*background: rgba(46,30,92, 0.8);*/
+        top: 190px;
+        left: 40px;
+        right: 40px;
+    }
+
+    .section08 .blockquote
+    {
+        margin-top: 5px;
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .section08 .blockquote-footer
+    {
+        margin-top: 5px;
+    }
+
+    .section08 .blockquote::before
+    {
+        content: '\201C';
+        float: left;
+        font-size: 150px;
+        font-weight: 500;
+        font-style: italic;
+        color: deeppink;
+        position: absolute;
+        top: -94px;
+        left: -18px;
+    }
+
+    .section08 h1
+    {
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Montserrat SemiBold";
+        font-size: 52px;
+        color: white;
+        line-height: 52px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+
+    .section08 h2 {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 42px;
+        font-family: Montserrat-SemiBold;
+        font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    .section08 p {
+        font-family: Montserrat-Regular;
+        font-size: 22px;
+        font-weight: normal;
+        color: white;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .section08 .blockquote::before
+    {
+        content: '\201C';
+        float: left;
+        font-size: 150px;
+        font-weight: 500;
+        font-style: italic;
+        color: deeppink;
+        position: absolute;
+        top: -110px;
+        left: -10px;
+
+    }
+
+    .section08 h3
+    {
+        margin: 0 0;
+        font-size: 20px;
+    }
+
+    .blockquote-footer {
+        display: block;
+        font-size: 14px;
+        color: #6c757d;
+    }
+
+}
+
+
+.my-photo-of-happy-client
+{
+    margin-top: 200px;
 }

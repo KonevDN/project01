@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d4a5455-d38c-4b73-9bd5-8c42136e15fa" name="Default Changelist" comment="" />
+    <list default="true" id="4d4a5455-d38c-4b73-9bd5-8c42136e15fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customization/pictures/landing/section08/happy-client.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customization/styles/landing/section08.css" beforeDir="false" afterPath="$PROJECT_DIR$/customization/styles/landing/section08.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +33,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -96,7 +102,8 @@
       <workItem from="1587254029136" duration="5675000" />
       <workItem from="1587286379553" duration="19676000" />
       <workItem from="1587335117179" duration="2272000" />
-      <workItem from="1587394286038" duration="8562000" />
+      <workItem from="1587394286038" duration="9798000" />
+      <workItem from="1587411429409" duration="5216000" />
     </task>
     <servers />
   </component>
