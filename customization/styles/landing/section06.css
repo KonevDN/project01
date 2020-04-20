@@ -1,11 +1,44 @@
-.section06 h2 {
-    font-weight: 700;
+/*.section06 h2 {*/
+/*    font-weight: 700;*/
+/*    font-style: normal;*/
+/*    font-size: 40px;*/
+/*    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;*/
+/*    margin-bottom: 20px;*/
+/*    margin-top: 0px;*/
+/*    color: #484848;*/
+/*}*/
+
+.section06 h1
+{
+    font-weight: bold;
     font-style: normal;
-    font-size: 40px;
-    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    font-family: "Montserrat SemiBold";
+    font-size: 52px;
+    color: black;
+    line-height: 52px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    margin-top: 0px;
-    color: #484848;
+}
+
+.section06 h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 42px;
+    /*font-family: Montserrat-SemiBold;*/
+    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    color: black;
+
+}
+
+.section06 p
+{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
 }
 
 .section06
@@ -20,6 +53,19 @@
     margin-bottom: 30px;
 }
 
+.section06 a.nav-link {
+    color: black;
+    font-size: 16px;
+}
+
+/*// Extra small devices (portrait phones, less than 767px)*/
+@media (max-width: 767px)
+{
+    .section06 a.nav-link {
+        font-size: 12px;
+    }
+}
+
 .section06 .gellery-item
 {
     margin-bottom: 70px;
@@ -31,3 +77,4 @@
     box-shadow: 0 14px 30px -15px rgba(0,0,0, .50);
     transition: all 500ms;
 }
+
