@@ -8,11 +8,6 @@
     margin-bottom: 20px;
 }
 
-.section04 p {
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .section04
 {
@@ -26,4 +21,39 @@
 .section04 .mycontent
 {
     padding: 40px;
+}
+
+.section04 h1
+{
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Montserrat SemiBold";
+    font-size: 52px;
+    /*color: black;*/
+    line-height: 52px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section04 h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 42px;
+    /*font-family: Montserrat-SemiBold;*/
+    font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+    /*margin-bottom: 20px;*/
+    /*margin-top: 20px;*/
+    /*color: black;*/
+
+}
+
+.section04 p
+{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    font-weight: bold;
+    /*color: black;*/
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
