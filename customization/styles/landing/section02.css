@@ -59,9 +59,9 @@ section .btn-shadow:hover
     font-weight: bold;
     font-style: normal;
     font-family: "Montserrat SemiBold";
-    font-size: 64px;
+    font-size: 52px;
     color: black;
-    line-height: 60px;
+    line-height: 52px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
