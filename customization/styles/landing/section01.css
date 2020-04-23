@@ -134,7 +134,7 @@ div.section01-first-display .container-fluid.my-slogan
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px)
 {
-    h1
+    .section01-first-display     h1
     {
         font-weight: bold;
         font-style: normal;
@@ -176,7 +176,7 @@ div.section01-first-display .container-fluid.my-slogan
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px)
 {
-    h1
+    .section01-first-display h1
     {
         font-weight: bold;
         font-style: normal;

@@ -6,20 +6,7 @@
     padding-bottom: 0;
 }
 
-.section08 .carousel-caption
-{
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    top: 10%;
-    bottom: auto;
-}
+
 
 .section08 .blockquote
 {
@@ -31,34 +18,40 @@
     position: relative;
 }
 
-.section08 .blockquote::before
-{
-    content: '\201C';
-    float: left;
-    font-size: 150px;
-    font-weight: 500;
-    font-style: italic;
-    color: deeppink;
-    position: absolute;
-    top: -110px;
-    left: -10px;
+/*.section08 .blockquote::before*/
+/*{*/
+/*    content: '\201C';*/
+/*    float: left;*/
+/*    font-size: 150px;*/
+/*    font-weight: 500;*/
+/*    font-style: italic;*/
+/*    color: deeppink;*/
+/*    position: absolute;*/
+/*    top: -110px;*/
+/*    left: -10px;*/
 
-}
+/*}*/
 
 
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px)
 {
+    .section08 .blockquote::before
+    {display: none}
+
     .section08 .carousel-caption
     {
-        padding-left: 20px;
-        padding-right: 20px;
-        /*width: 100%;*/
+        /*width: 270px;*/
+        position: absolute;
+        /*right: 15%;*/
+        bottom: 5px;
+        /*left: 5%;*/
+        top: -25px;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
         text-align: center;
-        /*background: rgba(46,30,92, 0.8);*/
-        top: 190px;
-        left: 40px;
-        right: 40px;
     }
 
     .section08 .blockquote
@@ -68,36 +61,76 @@
         font-size: 14px;
     }
 
-    .section08 .blockquote-footer
-    {
-        margin-top: 5px;
+    p {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
     }
 
-    .section08 .blockquote::before
-    {display: none}
-
-    .section08 h2
+    h1
     {
-        margin: 0 0;
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Montserrat SemiBold";
         font-size: 30px;
+        color: white;
+        line-height: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    .section08 h3
+    h2
     {
-        margin: 0 0;
+        font-weight: normal;
+        font-style: italic;
         font-size: 20px;
+        font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+        color: white;
     }
+
+    img.my-photo-of-happy-client {
+        margin-top: 200px;
+    }
+
+    .carousel-indicators li {
+        box-sizing: content-box;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 15px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity 0.6s ease;
+    }
+
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px)
+@media (min-width: 576px) and (max-width: 767px)
 {
     .section08 .blockquote::before
     {display: none}
 
     .section08 .carousel-caption
     {
-        width: 300px;
+        width: 270px;
+        position: absolute;
+        right: 15%;
+        bottom: 5px;
+        left: 5%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
     }
 
     .section08 .blockquote
@@ -106,6 +139,35 @@
         padding-left: 0;
         font-size: 14px;
     }
+
+    p {
+        font-family: Montserrat-Regular;
+        font-size: 14px;
+        font-weight: normal;
+        color: white;
+    }
+
+    h1
+    {
+        font-weight: bold;
+        font-style: normal;
+        font-family: "Montserrat SemiBold";
+        font-size: 26px;
+        color: white;
+        line-height: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2
+    {
+        font-weight: normal;
+        font-style: italic;
+        font-size: 16px;
+        font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
+        color: white;
+    }
+
 }
 
 
@@ -117,17 +179,17 @@
         font-weight: bold;
         font-style: normal;
         font-family: "Montserrat SemiBold";
-        font-size: 44px;
+        font-size: 40px;
         color: white;
-        line-height: 44px;
+        line-height: 40px;
         margin-top: 0px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .section08 h2 {
         font-weight: normal;
         font-style: italic;
-        font-size: 34px;
+        font-size: 30px;
         font-family: Montserrat-SemiBold;
         font-family: 'Palatino Linotype','Book Antiqua', 'Palace Script MT', serif;
         margin-bottom: 0px;
@@ -137,7 +199,7 @@
 
     .section08 p {
         font-family: Montserrat-Regular;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: normal;
         color: white;
         text-align: left;
@@ -160,7 +222,7 @@
     {
         font-style: italic;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 40px;
         margin-top: 20px;
         position: relative;
@@ -171,25 +233,26 @@
         position: absolute;
         right: 15%;
         bottom: 20px;
-        left: 5%;
+        left: 20%;
         z-index: 10;
         padding-top: 20px;
         padding-bottom: 20px;
         color: #fff;
         text-align: left;
-        top: 10%;
+        top: 6%;
         bottom: auto;
         width: 90%;
     }
 
     .section08 .my-photo-of-happy-client {
-        margin-top: 240px;
+        margin-top: 110px;
     }
 
     .section08 img {
-        max-width: 70%;
+        /*max-width: 70%;*/
         height: auto;
-        margin-left: 200px;
+        margin-left: 25px;
+        /*width: 350px;*/
     }
 }
 
@@ -227,17 +290,38 @@
         text-align: left;
     }
 
-    .section08 .blockquote::before
+    /*.section08 .blockquote::before*/
+    /*{*/
+    /*    content: '\201C';*/
+    /*    float: left;*/
+    /*    font-size: 150px;*/
+    /*    font-weight: 500;*/
+    /*    font-style: italic;*/
+    /*    color: deeppink;*/
+    /*    position: absolute;*/
+    /*    top: -94px;*/
+    /*    left: -18px;*/
+    /*}*/
+
+    .section08 .carousel-caption
     {
-        content: '\201C';
-        float: left;
-        font-size: 150px;
-        font-weight: 500;
-        font-style: italic;
-        color: deeppink;
         position: absolute;
-        top: -94px;
-        left: -18px;
+        right: 15%;
+        top: 3%;
+        bottom: 20px;
+        left: 18%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+        bottom: auto;
+    }
+
+    .section08 .my-photo-of-happy-client
+    {
+        margin-top: 100px;
+        margin-left: 50px;
     }
 }
 
@@ -251,8 +335,8 @@
         /*width: 100%;*/
         text-align: center;
         /*background: rgba(46,30,92, 0.8);*/
-        top: 190px;
-        left: 40px;
+        top: 68px;
+        left: 60px;
         right: 40px;
     }
 
@@ -339,10 +423,12 @@
         color: #6c757d;
     }
 
+    .section08 .my-photo-of-happy-client
+    {
+        margin-top: 100px;
+        margin-left: 75px;
+    }
+
 }
 
 
-.my-photo-of-happy-client
-{
-    margin-top: 200px;
-}
